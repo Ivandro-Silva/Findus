@@ -1,0 +1,52 @@
+.content {
+    display: grid;
+    grid-template-columns: 29% 69%;
+    grid-gap: 2%;
+    margin: auto 40px;
+}
+
+.content ol {
+    list-style: none;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.nav-bar li {
+    padding: 10px;
+    margin-left: -20px;
+    margin-bottom: 2px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    border: 2px blue solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.filtro-pesquisa {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}
+
+.escolas {
+    border: 2px black solid;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cont-esc {
+    margin: 10px;
+}
+
+.escola {
+    border: 2px solid black;
+    margin: 100px;
+}
