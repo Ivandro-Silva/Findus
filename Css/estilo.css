@@ -1,17 +1,25 @@
 .categorias {
-    list-style: none;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 2px;
-    text-align: center;
-    margin-top: -65px;
-    margin-bottom: 50px;
-    padding: 0;
-  }
-  
-  .categorias > a {
-    text-decoration: none;
-    background-color: black;
-    padding: 10px;
-    color: #fff;
-  }
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 2px;
+  text-align: center;
+  margin-top: -65px;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.categorias>a {
+  text-decoration: none;
+  background-color: #212529;
+  padding: 10px;
+  color: #fff;
+}
+
+.allrights {
+  text-align: center;
+}
+
+.f-logo {
+  margin: auto 20px auto auto;
+}
