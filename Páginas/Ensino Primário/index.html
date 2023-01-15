@@ -8,6 +8,7 @@
   <meta name="generator" content="Hugo 0.83.1">
   <link rel="stylesheet" href="../../Css/footer.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../Css/content.css">
   <title>Findus | Ensino Primário</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
@@ -129,91 +130,161 @@
       </button>
     </div>
 
-    <ol class="categorias">
-      <a href="index.html">
-        <li>Ensino Primário</li>
-      </a>
-      <a href="../Ensino Secundário I Ciclo/index.html">
-        <li>Ensino secundário (I Ciclo)</li>
-      </a>
-      <a href="../Ensino Médio/index.html">
-        <li>Ensino Médio</li>
-      </a>
-      <a href="../Ensino Superior/index.html">
-        <li>Ensino Superior</li>
-      </a>
-      <a href="../Centros de Formação/index.html">
-        <li>Centros de Formação</li>
-      </a>
-    </ol>
+    <div class="content">
+      <div class="nav-bar">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; text-align: center;">
+          <span class="fs-4">Categorias</span>
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active" aria-current="page">Ensino Primário</a>
+            </li>
+            <li>
+              <a href="../Ensino Secundário I Ciclo/index.html" class="nav-link text-white">Ensino secundário</a>
+            </li>
+            <li>
+              <a href="../Ensino Médio/index.html" class="nav-link text-white">Ensino Médio</a>
+            </li>
+            <li>
+              <a href="../Ensino Superior/index.html" class="nav-link text-white">Ensino Superior</a>
+            </li>
+            <li>
+              <a href="../Centros de Formação/index.html" class="nav-link text-white">Centros de Formação</a>
+            </li>
+          </ul>
+          <hr>
+        </div>
 
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="filtro-pesquisa">
+          <span class="titulo fs-4">Filtro de Pesquisa</span>
 
-    <div class="container marketing">
+          <div class="d-flex flex-column flex-shrink-0 p-0 text-white bg-dark" style="width: 280px; ">
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <div class="provincias mgn">
+                  <label for="provincias">Província</label>
+                  <select name="" id="provincias">
+                    <option value="" disabled>Bengo</option>
+                    <option value="" disabled>Benguela</option>
+                    <option value="" disabled>Bié</option>
+                    <option value="" disabled>Cabinda</option>
+                    <option value="" disabled>Cuando Cubango</option>
+                    <option value="" disabled>Cuanza Norte</option>
+                    <option value="" disabled>Cuanza Sul</option>
+                    <option value="" disabled>Cunene</option>
+                    <option value="" disabled>Huambo</option>
+                    <option value="" disabled>Huila</option>
+                    <option value="">Luanda</option>
+                    <option value="" disabled>Lunda Norte</option>
+                    <option value="" disabled>Lunda Sul</option>
+                    <option value="" disabled>Malanje</option>
+                    <option value="" disabled>Moxico</option>
+                    <option value="" disabled>Namibe</option>
+                    <option value="" disabled>Uige</option>
+                    <option value="" disabled>Zaire</option>
+                  </select>
+                </div>
+              </li>
+              <li>
+                <div class="regime">
+                  <label for="regime">Regime</label>
+                  <select name="" id="regime">
+                    <option value="">Estatal</option>
+                    <option value="">Privada</option>
+                  </select>
+                </div>
+              </li>
+              <li>
+                <div class="cursos">
+                  <label for="cursos">Curso</label>
+                  <select name="" id="cursos">
+                    <option value="">Análises Clínicas</option>
+                    <option value="">Arquitectura</option>
+                    <option value="">Ciências Econômicas e Jurídicas</option>
+                    <option value="">Ciências Físicas e Biológicas</option>
+                    <option value="">Contabilidade</option>
+                    <option value="">Enfermagem</option>
+                    <option value="">Gestão empresarial</option>
+                    <option value="">Informática</option>
+                    <option value="">Informática de Gestão</option>
+                    <option value="">Petroquímica</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+      </div>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <!-- Marketing messaging and featurettes
+     ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="escolas">
+        <div class="container marketing cont-esc">
 
-        <!-- START THE FEATURETTES -->
+          <!-- START THE FEATURETTES -->
+          <div class="row featurette escola">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Colégio Santa Ana & Noesa.</h2>
+              <p class="lead">Categoria: Ensino Primário</p>
+              <p class="lead">Província: Luanda</p>
+              <p>star ratings</p>
+              <p class="lead"><a href="#">Saiba mais aqui...</a></p>
+            </div>
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Colégio Santa Ana & Noesa.</h2>
-            <p class="lead">Categoria: Ensino Médio</p>
-            <p class="lead">Província: Luanda</p>
-            <p class="lead"><a href="#">Saiba mais aqui...</a></p>
+            <div class="col-md-5">
+              <img src="../../Imagens/Noesa.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+              <rect width="100%" height="100%" fill="#eee" />
+            </div>
           </div>
 
-          <div class="col-md-5">
-            <img src="../../Imagens/Noesa.jpg"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
-              focusable="false">
-            <rect width="100%" height="100%" fill="#eee" />
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette escola">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">UCAN - Universidade Católica de Angola</h2>
+              <p class="lead">Categoria: Ensino Primário</p>
+              <p class="lead">Província: Luanda</p>
+              <p class="lead">Avaliação da qualidade de ensino segundo a...</p>
+              <p class="lead"><a href="#">Saiba mais aqui...</a></p>
+            </div>
+
+            <div class="col-md-5 order-md-1">
+              <img src="../../Imagens/UCAN.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+            </div>
           </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette escola">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">IMIL - Makarenco</h2>
+              <p class="lead">Categoria: Ensino Primário</p>
+              <p class="lead">Província: Luanda</p>
+              <p class="lead"><a href="#">Saiba mais aqui...</a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                src="../../Imagens/IMIL.jpg" role="img" aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <!-- /END THE FEATURETTES -->
+
         </div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">UCAN - Universidade Católica de Angola</h2>
-          <p class="lead">Categoria: Ensino Superior</p>
-          <p class="lead">Província: Luanda</p>
-          <p class="lead">Avaliação da qualidade de ensino segundo a...</p>
-          <p class="lead"><a href="#">Saiba mais aqui...</a></p>
-        </div>
-
-        <div class="col-md-5 order-md-1">
-          <img src="../../Imagens/UCAN.jpg"
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
-            role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">IMIL - Makarenco</h2>
-          <p class="lead">Categoria: Ensino Médio</p>
-          <p class="lead">Província: Luanda</p>
-          <p class="lead"><a href="#">Saiba mais aqui...</a></p>
-        </div>
-        <div class="col-md-5">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            src="../../Imagens/IMIL.jpg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
     </div>
 
     <!-- /.container -->

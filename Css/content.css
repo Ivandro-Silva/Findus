@@ -2,11 +2,7 @@
     display: grid;
     grid-template-columns: 29% 69%;
     grid-gap: 2%;
-    margin: auto 40px;
-}
-
-.content ol {
-    list-style: none;
+    margin: -65px 40px auto 0;
 }
 
 .content a {
@@ -17,40 +13,47 @@
     padding: 10px;
     margin-left: -20px;
     margin-bottom: 2px;
-    background-color: aqua;
+    /*background-color: aqua;*/
     text-align: center;
+    color: #fff;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #212529;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 .titulo {
     text-align: center;
-    border: 2px blue solid;
+    border: 3px #0B5ED7 solid;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 10px;
 }
+
+.categorias {
+    margin-top: 20px;
+}
+
 
 .filtro-pesquisa {
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
+    color: #fff;
 }
 
 .escolas {
-    border: 2px black solid;
-    border-right: none;
-    border-bottom: none;
+    margin-top: 20px;
 }
 
 .cont-esc {
     margin: 10px;
 }
 
-.escola {
-    border: 2px solid black;
-    margin: 100px;
-}
-
 .allrights {
     text-align: center;
-  }
+}
