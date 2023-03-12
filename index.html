@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -7,38 +7,25 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.83.1">
   <link rel="stylesheet" href="./Css/footer.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Findus.</title>
-
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Css/content.css">
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-  <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="Css/carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Css/estilo.css">
 
   <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
     .nav-menu {
       margin: auto 40px auto 100px;
+    }
 
+    body,
+    input {
+      font-family: "Poppins", sans-serif;
     }
   </style>
 
-  <!-- Custom styles for this template -->
-  <link href="Css/carousel.css" rel="stylesheet">
-  <link rel="stylesheet" href="./Css/estilo.css">
+  <title>Findus.</title>
 </head>
 
 <body>
@@ -60,12 +47,22 @@
               <a class="nav-link active" href="#sobre-nos">Sobre nós</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Adicionar escola</a>
+              <a class="nav-link active" href="./Páginas/Nova Escola/Nova Escola.html">Adicionar escola</a>
             </li>
           </ul>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
             <button class="btn btn-primary" type="submit">Pesquisar</button>
+            <div class="dropdown" style="margin-left: 20px;">
+              <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="" style="background-size: 100% 100%;" alt="" width="32" height="32"
+                  class="rounded-circle me-2"> <strong>User</strong>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="./Páginas/Login e Cadastro/Login e Cadastro.html">Entrar</a></li>
+              </ul>
+            </div>
           </form>
         </div>
       </div>
@@ -102,19 +99,21 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>ENSINO MÉDIO</h1>
-              <p>Uma etapa que permite a criação e o fortalecimento de laços de amizade que podem até mesmo durar a vida toda</p>
+              <p>Uma etapa que permite a criação e o fortalecimento de laços de amizade que podem até mesmo durar a vida
+                toda</p>
             </div>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img class="bd-placeholder-img" width="100%" height="100%" src="./Imagens/IPGEST.jpg" aria-hidden="true"
+          <img width="100%" height="100%" src="./Imagens/IPGEST.jpg" aria-hidden="true"
             preserveAspectRatio="xMidYMid slice" focusable="false">
 
           <div class="container">
             <div class="carousel-caption text-end">
               <h1>ENSINO SUPERIOR</h1>
-              <p>Chegou a hora de dar o próximo passo para a sua carreira, você terá acesso a conteúdos que te interessam particularmente.</p>
+              <p>Chegou a hora de dar o próximo passo para a sua carreira, você terá acesso a conteúdos que te
+                interessam particularmente.</p>
             </div>
           </div>
         </div>
@@ -201,8 +200,7 @@
           </div>
 
           <div class="col-md-5">
-            <img src="./Imagens/Noesa.jpg"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            <img src="./Imagens/Noesa.jpg" class="bd-placeholder-img featurette-image img-fluid mx-auto" width="500"
               height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
               focusable="false">
             <rect width="100%" height="100%" fill="#eee" />
@@ -217,7 +215,7 @@
           <h2 class="featurette-heading">UCAN - Universidade Católica de Angola</h2>
           <p class="lead">Categoria: Ensino Superior</p>
           <p class="lead">Província: Luanda</p>
-          <p class="lead">Avaliação da qualidade de ensino segundo a...</p>
+          <p class="lead">star ratings</p>
           <p class="lead"><a href="Páginas/Ensino Superior/UMA.html">Saiba mais aqui...</a></p>
         </div>
 
@@ -262,13 +260,20 @@
         <p>Findus (Find Your School) é um motor de busca Nacional Angolano de escolas de todos os Ensinos. <br>
           Com o Findus é possível encontrar rapidamente a escola ideal em qualquel parte de Angola no conforto de sua
           casa.</p>
-
-        <ul class="redes-sociais">
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-        </ul>
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
       </div>
 
       <div class="footer-right">
@@ -287,12 +292,11 @@
     <div class="go-up">
       <p class="float-end"><a href="#"> <img src="./Imagens/arrow-up-circle-fill.svg" alt=""> </a></p>
     </div>
-    <div class="footer-bottom">  
+    <div class="footer-bottom">
       <p>&copy; 2023 Findus - Todos Os Direitos Reservados.</p>
     </div>
   </footer>
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Css/nova escola.css">
+    <link rel="stylesheet" href="../../Css/footer.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../Css/content.css">
+    <link rel="stylesheet" href="../../assets/dist/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">  
+    <link rel="stylesheet" href="../../Css/estilo.css">
+    <link rel="stylesheet" href="../../Css/carousel.css">
+    <style>
+        .nav-menu {
+            margin: auto 40px auto 100px;
+        }
+
+        body,
+        input {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+
+    <title>Nova escola | Findus.</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+            <div class="container-fluid nav-menu">
+                <h1>Findus.</h1>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre-nos">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../Nova Escola/Nova Escola.html">Adicionar escola</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                        <div class="dropdown" style="margin-left: 20px;">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="" style="background-size: 100% 100%;" alt="" width="32" height="32"
+                                class="rounded-circle me-2">
+                              <strong>User</strong>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                              <li><a class="dropdown-item" href="../Login e Cadastro/Login e Cadastro.html">Entrar</a></li>
+                            </ul>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <div class="left-side">
+            <div class="inf">
+                <p>"As informações a serem adicionadas neste formulário devem ser informações da escola em questão."</p>
+            </div>
+            <div class="form-img"><img src="../../Imagens/form-img.svg" alt=""></div>
+        </div>
+
+        <div class="right-side">
+            <form action="" id="form">
+                <div class="form-title">
+                    <h1 id="titulo">Cadastro</h1>
+                </div>
+                <div class="first-block">
+                    <div class="input-field">
+                        <input type="text" placeholder="Nome da escola">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Telefone">
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <select name="" id="">
+                            <option value="" selected>Selecione a província</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <input type="url" placeholder="Site da escola">
+                    </div>
+                    <label class="input-field import-image" for="input-file">
+                        <input type="file" class="import" id="input-file"><span>Adicionar imagens</span>
+                    </label>
+
+                </div>
+                <div class="text">
+                    <p>Marque a categoria: <br> (É possível marcar mais de uma categoria) </p>
+                </div>
+                <div class="st-row-chbx">
+                    <div class="input-chbx">
+                        <input type="checkbox" id="chbx_primario" name="chbx_primario">
+                        <label for="chbx_primario">Ensino Primário</label>
+                    </div>
+                    <div class="input-chbx">
+                        <input type="checkbox" id="chbx_secundario" name="chbx_secundario">
+                        <label for="chbx_secundario">Ensino Secundário</label>
+                    </div>
+                    <div class="input-chbx">
+                        <input type="checkbox" id="chbx_medio" name="chbx_medio">
+                        <label for="chbx_medio">Ensino Médio</label>
+                    </div>
+                </div>
+                <div class="nd-row-chbx">
+                    <div class="input-chbx">
+                        <input type="checkbox" id="chbx_superior" name="chbx_superior">
+                        <label for="chbx_superior">Ensino Superior</label>
+                    </div>
+                    <div class="input-chbx">
+                        <input type="checkbox" id="chbx_formacao" name="chbx_formacao">
+                        <label for="chbx_formacao">Centro de Formação</label>
+                    </div>
+                </div>
+                <div class="last-block">
+                    <div class="input-last-block">
+                        <select name="" id="">
+                            <option value="" selected>Selecione os cursos</option>
+                        </select>
+                    </div>
+                    <div class="input-last-block">
+                        <input type="text" placeholder="Localização">
+                    </div>
+                    <div class="input-last-block">
+                        <select name="" id="">
+                            <option value="" selected>Regime</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="btn_enviar">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+                <div></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+
+        <div class="cont-top">
+            <div class="footer-left" id="sobre-nos">
+                <h2>Sobre Nós</h2>
+                <p>Findus (Find Your School) é um motor de busca Nacional Angolano de escolas de todos os Ensinos. <br>
+                    Com o Findus é possível encontrar rapidamente a escola ideal em qualquel parte de Angola no conforto
+                    de sua
+                    casa.</p>
+
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <h2>Contacte-nos</h2>
+                <ul class="box">
+                    <li>Rua de Olivença - casa nº 6</li>
+                    <li>Rangel - Marçal</li>
+                    <li>Angola - Luanda</li><br>
+                    <li>+244 922 741 945</a></li>
+                    <li>findus.co.ao@gmail.com</li>
+                    <li>ivandro.c.silva2003@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>&copy; 2023 Findus - Todos Os Direitos Reservados.</p>
+        </div>
+    </footer>
+    <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
